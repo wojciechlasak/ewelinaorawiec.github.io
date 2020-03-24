@@ -1,0 +1,52 @@
+.project-top {
+  height: 80%;
+}
+
+.project-top-title {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.project-top-subtitle {
+  color: #fff;
+  font-size: 1.62em;
+}
+
+.project-photo {
+  max-width: 100%
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.button-fixed {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  color: #fff;
+  background-color: rgb(96, 28, 255);
+  position: fixed;
+  border: none;
+  cursor: pointer;
+}
+
+#button-up {
+  bottom: 3%;
+  right: 3%;
+  display: none;
+}
+
+#button-back {
+  top: 3%;
+  left: 3%;
+}
+
+#button-up.show {
+  display: block;
+}
