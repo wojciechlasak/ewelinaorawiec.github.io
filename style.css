@@ -1,0 +1,166 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+}
+
+.flexc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexr {
+  display: flex;
+  flex-direction: row;
+}
+
+.air {
+  clear: both;
+  height: 3em;
+}
+.airmin {
+  clear: both;
+  height: 1.5em;
+}
+.airmik {
+  clear: both;
+  height: 0.75em;
+}
+
+.abs {
+  position: absolute;
+}
+
+.rel {
+  position: relative;
+}
+
+.column {
+  padding: 0 2.5em;
+}
+
+.column-double {
+  padding: 0 5em;
+}
+
+.part {
+  background-color: #434343;
+  min-height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+
+}
+
+h2 {
+  color: rgb(119, 131, 144);
+  font-weight: 400;
+  letter-spacing: .1em;
+}
+
+p {
+  color: rgb(119, 131, 144);
+  line-height: 1.5;
+  font-size: 1.1em;
+}
+
+#top {
+  min-height: 100%;
+}
+
+#top-photo {
+  height: 100%;
+}
+
+#top-photo img {
+  max-width: 100%;
+  max-height: 600px;
+  object-position: center center;
+}
+
+#top-button {
+  border-radius: 50%;
+  background-color: #fff;
+  color: rgb(119, 131, 144);
+  font-weight: 700;
+  border: rgb(192, 192, 192) solid 1px;
+  width: 2.5em;
+  height: 2.5em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#top-button:hover {
+  background-color: rgb(192, 192, 192);
+  color: #fff;
+}
+
+.line {
+  height: 2.5px;
+  width: 125px;
+  top: 25%;
+  left:-66.6%;
+  background-color: #000;
+  border: none;
+}
+
+.project-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(126, 76, 245);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.project-photo {
+  z-index: 1;
+  background-image: url(img/projekt_peron.png);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  padding-top:100%;
+}
+
+.project-photo:hover .project-overlay {
+  opacity: 0.85
+}
+
+.project-photo img{
+  max-width: 100%;
+}
+
+.project p {
+  font-size: 1em;
+}
