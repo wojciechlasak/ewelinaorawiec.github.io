@@ -2,6 +2,10 @@
   height: 80%;
 }
 
+.project-top-in {
+  height: 100%;
+}
+
 .project-top-title {
   color: #fff;
   font-size: 5em;
@@ -25,21 +29,53 @@ h2 {
   font-weight: 700;
 }
 
+.button-peron {
+  background-color: rgb(96, 28, 255);
+}
+
+.button-nameo {
+  background-color: rgb(35, 133, 153);
+}
+
+.button-peron:hover {
+  background-color: rgba(96, 28, 255, 0.75);
+}
+
+.button-nameo:hover {
+  background-color: rgb(35, 133, 153, 0.75);
+}
+
+.button-conference {
+  background-color: rgb(89, 150, 224);
+}
+
+.button-conference:hover {
+  background-color: rgb(89, 150, 224, 0.75);
+}
+
 .button-fixed {
   border-radius: 50%;
   width: 65px;
   height: 65px;
   color: #fff;
-  background-color: rgb(96, 28, 255);
   position: fixed;
   border: none;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.button-fixed img{
+  max-width: 100%;
 }
 
 #button-up {
   bottom: 3%;
   right: 3%;
   display: none;
+}
+
+#button-up img {
+  transform: rotate(90deg);
 }
 
 #button-back {
@@ -49,4 +85,40 @@ h2 {
 
 #button-up.show {
   display: block;
+}
+
+/*conference gallery*/
+
+.arrow-right-gallery {
+  transform: rotate(180deg);
+}
+
+.gallery-arrow {
+  height: 45px;
+  width: 45px;
+  background-color: rgb(89, 150, 224);
+  cursor: pointer;
+}
+
+.gallery-arrow:hover {
+  background-color: rgb(89, 150, 224, 0.75);
+}
+
+.gallery-arrow img {
+  max-width: 100%;
+}
+
+#gallery-laptop {
+  background-image: url(img/conference/laptop1.jpg);
+}
+
+#gallery-phone {
+  background-image: url(img/conference/aplikacja1.jpg);
+}
+
+.gallery {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 50%;
 }

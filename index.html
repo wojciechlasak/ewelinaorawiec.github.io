@@ -9,68 +9,100 @@
     <title>Ewelina Orawiec</title>
 
     <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-  <header id="top">
+  <header id="top" class="part">
     <div class="air"></div>
-    <div class="flex column">
+    <div class="flex column flex-1024-reverse">
       <div id="top-photo" class="column col2 flex flex-column flex-align-center">
         <img src="img/ewelina_orawiec.jpg" alt="ewelina_orawiec" />
       </div>
-      <div class="column col2 flex flex-column flex-align-start flex-justify-center">
+      <div class="air less-1024"></div>
+      <div class="column col2 flex flex-column flex-align-start flex-justify-center flex-1024-align-center">
         <div class="rel">
-          <hr class="line abs" />
+          <hr class="line abs more-1024" />
           <h1>Ewelina Orawiec</h1>
         </div>
         <div class="airmin"></div>
         <h2>Junior UX/UI designer</h2>
         <div class="airmin"></div>
-        <p>
+        <p class="text-align-center-1024">
           Jestem studentką informatyki społecznej.<br />
           Pasjonuje się rozwiązywaniem codziennych problemów
         </p>
         <div class="airmin"></div>
-        <a target="_blank" href="https://www.linkedin.com/in/ewelina-orawiec/"><button id="top-button">in</button></a>
-      </div>
-    </div>
-    <div class="air"></div>
-  </header>
-  <main id="project-peron" >
-    <div class="air"></div>
-    <div class="single-project flex column">
-      <div class="column col2">
-        <a href="./peron.html">
-          <div class="single-project-photo rel">
-            <div class="single-project-overlay abs"></div>
-          </div>
-        </a>
-      </div>
-      <div class="flex flex-column flex-align-start flex-justify-center column col2">
-        <h1>Tell The Story Of</h1>
-        <div class="airmin"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi reiciendis tenetur repud</p>
-      </div>
-    </div>
-    <div class="air"></div>
-    <div class="air"></div>
-    <div class="single-project flex column">
-      <div class="flex flex-column flex-align-start flex-justify-center column col2">
-        <h1>Tell The Story Of</h1>
-        <div class="airmin"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi reiciendis tenetur repud</p>
-      </div>
-      <div class="column col2">
-        <div class="single-project-photo rel">
-          <div class="single-project-overlay abs"></div>
+        <div class="flex">
+          <a target="_blank" href="https://www.linkedin.com/in/ewelina-orawiec/"><button class="top-button">in</button></a>
+          <a target="_blank" href="./EwelinaOrawiecCV.pdf" download><button class="top-button">cv</button></a>
         </div>
       </div>
     </div>
     <div class="air"></div>
-    <div class="air"></div>
+  </header>
+  <main class="part">
+    <section id="project-peron">
+      <div class="air"></div>
+      <div class="single-project flex column flex-1024-reverse">
+        <div class="column col2">
+          <a href="./peron.html">
+            <div class="single-project-photo rel">
+              <div class="single-project-overlay abs"></div>
+            </div>
+          </a>
+        </div>
+        <div class="air less-1024"></div>
+        <div class="flex flex-column flex-align-start flex-justify-center column col2">
+          <h1>PerOn</h1>
+          <div class="airmin"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi reiciendis tenetur repud</p>
+        </div>
+      </div>
+      <div class="air"></div>
+    </section>
+    <section id="project-nameo">
+      <div class="air"></div>
+      <div class="single-project flex column">
+        <div class="flex flex-column flex-align-start flex-justify-center column col2">
+          <h1>Interaktywna tablica korkowa</h1>
+          <div class="airmin"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi reiciendis tenetur repud</p>
+          <div class="air less-1024"></div>
+        </div>
+        <div class="column col2">
+          <a href="./nameo.html">
+            <div class="single-project-photo rel">
+              <div class="single-project-overlay abs"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="air"></div>
+      <div class="air more-1024"></div>
+    </section>
+    <section id="project-conference">
+      <div class="air"></div>
+      <div class="single-project flex column flex-1024-reverse">
+        <div class="column col2">
+          <a href="./conference.html">
+            <div class="single-project-photo rel">
+              <div class="single-project-overlay abs"></div>
+            </div>
+          </a>
+        </div>
+        <div class="air less-1024"></div>
+        <div class="flex flex-column flex-align-start flex-justify-center column col2">
+          <h1>Pakiet produktów - konfer</h1>
+          <div class="airmin"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi reiciendis tenetur repud</p>
+        </div>
+      </div>
+      <div class="air"></div>
+      <div class="air"></div>
+    </section>
   </main>
 </body>
 </html>

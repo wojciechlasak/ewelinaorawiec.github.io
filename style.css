@@ -61,12 +61,13 @@ body {
 }
 
 .part {
-  background-color: #434343;
-  min-height: 100%;
   max-width: 1400px;
   margin: 0 auto;
 }
 
+.less-1024 {
+  display: none;
+}
 
 h1,
 h2,
@@ -108,7 +109,7 @@ h2 {
   object-position: center center;
 }
 
-#top-button {
+.top-button {
   border-radius: 50%;
   background-color: #fff;
   color: rgb(119, 131, 144);
@@ -118,9 +119,10 @@ h2 {
   height: 2.5em;
   cursor: pointer;
   transition: 0.2s;
+  margin-right: 0.5em;
 }
 
-#top-button:hover {
+.top-button:hover {
   background-color: rgb(192, 192, 192);
   color: #fff;
 }
@@ -146,14 +148,13 @@ h2 {
 
 .single-project-photo {
   z-index: 1;
-  background-image: url(img/projekt_peron.png);
   background-position: center;
   background-size: cover;
   cursor: pointer;
   padding-top:100%;
 }
 
-.single-project-photo:hover .project-overlay {
+.single-project-photo:hover .single-project-overlay {
   opacity: 0.85
 }
 
@@ -163,4 +164,28 @@ h2 {
 
 .single-project p {
   font-size: 1em;
+}
+
+#project-peron .single-project-photo {
+  background-image: url(img/peron.jpg);
+}
+
+#project-peron .single-project-overlay {
+  background-color: rgb(126, 76, 245);
+}
+
+#project-nameo .single-project-photo {
+  background-image: url(img/nameo_tablet.jpg);
+}
+
+#project-nameo .single-project-overlay {
+  background-color: rgb(34, 149, 171);
+}
+
+#project-conference .single-project-photo {
+  background-image: url(img/conference/laptop2.jpg);
+}
+
+#project-conference .single-project-overlay {
+  background-color: rgb(128, 170, 222);
 }

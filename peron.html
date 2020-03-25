@@ -9,26 +9,28 @@
     <title>Ewelina Orawiec</title>
 
     <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-  <button id="button-up" class="button-fixed">M</button>
-  <a href="./index.html#project-peron"><button id="button-back" class="button-fixed"><--</button></a>
+  <button id="button-up" class="button-fixed button-peron"><img src="img/icon.svg" /></button>
+  <a href="./index.html#project-peron"><button id="button-back" class="button-fixed button-peron"><img src="img/icon.svg" /></button></a>
   <header
-    id="peron-top"
     style="background-color: rgb(126, 76, 245);"  
-    class="project-top flex flex-column flex-justify-center flex-align-start column-double"
+    class="project-top"
   >
-    <span class="project-top-title">PerOn</span>
-    <div class="airmin"></div>
-    <span class="project-top-subtitle">Projekt studencki - międzymiastowe podróże koleją</span>
+   <div class="part project-top-in column-double flex flex-column flex-justify-center flex-align-start">
+      <span class="project-top-title text-align-center">PerOn</span>
+      <div class="airmin"></div>
+      <span class="project-top-subtitle text-align-center">Projekt studencki - międzymiastowe podróże koleją</span>
+   </div>
   </header>
   <div class="air"></div>
   <div class="air"></div>
-  <article>
+  <section class="part">
     <div class="flex column">
 			<div class="col2 column">
         <img class="project-photo" src="img/peron.jpg" />
@@ -52,11 +54,13 @@
         </p>
       </div>
     </div>
-  </article>
+  </section>
   <div class="air"></div>
-  <img class="project-photo" src="img/peron_mockup1.jpg" />
+  <section class="part">
+    <img class="project-photo" src="img/peron_mockup1.jpg" />
+  </section>
   <div class="air"></div>
-  <article>
+  <section class="part">
     <div class="column-double flex flex-column flex-align-center">
       <h1>Proces projektowy</h1>
       <div class="air"></div>
@@ -115,8 +119,8 @@
       <div class="air"></div>
       <div class="air"></div>
     </div>
-  </article>
-  <article>
+  </section>
+  <section class="part">
     <div class="flex column">
       <div class="col2 column-double">
         <img class="project-photo" src="img/peron_ideacja.jpg" />
@@ -139,10 +143,10 @@
         <p>Następnie przeprowadziłyśmy krótkie badania z osobami, które uczestniczyły we wcześniejszych wywiadach, pytając o ich opinie na temat funkcjonalności. Odrzuciłyśmy niektóre pomysły.</p>
       </div>
     </div>
-  </article>
+  </section>
   <div class="air"></div>
   <div class="air"></div>
-  <article>
+  <section class="part">
     <div class="column-double flex flex-column flex-align-center">
       <div class="flex flex-column col5-3">
         <h2>Prototypowanie i testy użytkowników</h2>
@@ -158,11 +162,11 @@
         </p>
       </div>
     </div>
-  </article>
+  </section>
   <div class="air"></div>
   <img class="project-photo" src="img/peron_mockup2.jpg" />
   <div class="air"></div>
-  <article>
+  <section class="part">
     <div class="column-double flex flex-column flex-align-center">
       <div class="flex flex-column col5-3">
         <h2>Dalsze perspektywy</h2>
@@ -181,12 +185,12 @@
         </p>
       </div>
     </div>
-  </article>
+  </section>
   <div class="air"></div>
   <div class="air"></div>
-  <article>
-    <div class="column-double flex flex-column flex-align-center col3-2">
-      <div class="flex flex-column">
+  <section class="part">
+    <div class="column-double flex flex-column flex-align-center">
+      <div class="flex flex-column col5-3">
         <h3>Skład grupy projektowej:</h3>
         <div class="airmin"></div>
         <ul>
@@ -197,7 +201,7 @@
         </ul>
       </div>
     </div>
-  </article>
+  </section>
   <div class="air"></div>
   <div class="air"></div>
 
