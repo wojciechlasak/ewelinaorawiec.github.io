@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-  <button id="button-up" class="button-fixed button-peron"><img src="img/icon.svg" /></button>
-  <a href="./index.html#project-peron"><button id="button-back" class="button-fixed button-peron"><img src="img/icon.svg" /></button></a>
+  <button id="button-up" class="button-logo button-peron"><img src="img/icon.svg" /></button>
+  <a href="./index.html#project-peron"><button id="button-back" class="button-logo button-peron"><img src="img/icon.svg" /></button></a>
   <header
     style="background-color: rgb(126, 76, 245);"  
     class="project-top"
@@ -32,8 +32,14 @@
   <div class="air"></div>
   <section class="part">
     <div class="flex column">
-			<div class="col2 column">
+			<div class="col2 column flex flex-column flex-justify-center flex-align-center">
         <img class="project-photo" src="img/peron.jpg" />
+        <a href="https://www.figma.com/file/HHGYsU1zxAYix5mgbCcggD/Podr%C3%B3%C5%BCe-Copy?node-id=0%3A1" target="_blank">
+          <div class="flex flex-align-center proto-container">
+            <button class="button-logo button-peron"><img src="img/proto.svg" /></button>
+            <h2>Prototyp</h2>
+          </div>
+        </a>
       </div>
 			<div class="col2 flex flex-column column">
         <div class="air"></div>
@@ -193,9 +199,11 @@
       <div class="flex flex-column col5-3">
         <h3>Skład grupy projektowej:</h3>
         <div class="airmin"></div>
-        <ul>
+        <ul class="team-list">
           <li>Ewelina Orawiec</li>
-          <li>Maja Puente-Bartłomiejczyk</li>
+          <div class="flex flex-align-center">
+            <li>Maja Puente-Bartłomiejczyk</li> <a target="_blank" href="https://www.linkedin.com/in/maja-puente-402a25163/"><button class="top-button">in</button></a>
+          </div>
           <li>Natalia Nitarska</li>
           <li>Agata Stawoska</li>
         </ul>

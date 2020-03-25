@@ -29,6 +29,14 @@ h2 {
   font-weight: 700;
 }
 
+.proto-container {
+  cursor: pointer;
+}
+
+.proto-container .button-logo {
+  margin-right: 0.5em;
+}
+
 .button-peron {
   background-color: rgb(96, 28, 255);
 }
@@ -37,7 +45,7 @@ h2 {
   background-color: rgb(35, 133, 153);
 }
 
-.button-peron:hover {
+.proto-container:hover .button-peron, .button-peron:hover {
   background-color: rgba(96, 28, 255, 0.75);
 }
 
@@ -49,26 +57,30 @@ h2 {
   background-color: rgb(89, 150, 224);
 }
 
-.button-conference:hover {
+.proto-container:hover .button-conference, .button-conference:hover {
   background-color: rgb(89, 150, 224, 0.75);
 }
 
-.button-fixed {
+.button-logo {
   border-radius: 50%;
   width: 65px;
   height: 65px;
   color: #fff;
-  position: fixed;
   border: none;
   cursor: pointer;
   transition: 0.5s;
 }
 
-.button-fixed img{
+.button-logo img{
   max-width: 100%;
 }
 
+.button-proto {
+  margin-right: 0.5em;
+}
+
 #button-up {
+  position: fixed;
   bottom: 3%;
   right: 3%;
   display: none;
@@ -79,6 +91,7 @@ h2 {
 }
 
 #button-back {
+  position: fixed;
   top: 3%;
   left: 3%;
 }

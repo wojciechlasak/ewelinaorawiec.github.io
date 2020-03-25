@@ -80,8 +80,13 @@ p {
   line-height: 1.2;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 h2 {
   font-weight: 400;
+  color: #000;
 }
 
 
@@ -130,8 +135,8 @@ h2 {
 .line {
   height: 2.5px;
   width: 150px;
-  top: 25%;
-  left: -80%;
+  top: 33%;
+  left: -60%;
   background-color: #000;
   border: none;
 }
@@ -183,9 +188,17 @@ h2 {
 }
 
 #project-conference .single-project-photo {
-  background-image: url(img/conference/laptop2.jpg);
+  background-image: url(img/conference/aplikacja3.jpg);
 }
 
 #project-conference .single-project-overlay {
   background-color: rgb(128, 170, 222);
+}
+
+.team-list div li {
+  margin-right: 0.5em;
+}
+
+.team-list li {
+  padding: 0.5em 0
 }
