@@ -202,3 +202,11 @@ h2 {
 .team-list li {
   padding: 0.5em 0
 }
+
+#project-petcare .single-project-photo {
+  background-image: url(img/petcare1.png);
+}
+
+#project-petcare .single-project-overlay {
+  background-color: #FCAE59;
+}
