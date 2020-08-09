@@ -61,6 +61,14 @@ h2 {
   background-color: rgb(89, 150, 224, 0.75);
 }
 
+.button-petcare {
+  background-color: rgb(247, 151, 49);
+}
+
+.button-petcare:hover {
+  background-color: rgb(247, 151, 49 0.75);
+}
+
 .button-logo {
   border-radius: 50%;
   width: 65px;
@@ -84,6 +92,8 @@ h2 {
   bottom: 3%;
   right: 3%;
   display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 #button-up img {
@@ -94,10 +104,13 @@ h2 {
   position: fixed;
   top: 3%;
   left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #button-up.show {
-  display: block;
+  display: flex;
 }
 
 /*conference gallery*/
