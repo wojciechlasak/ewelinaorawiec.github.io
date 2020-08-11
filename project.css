@@ -18,7 +18,7 @@
 }
 
 .project-photo {
-  max-width: 100%
+  max-width: 100%;
 }
 
 h1 {
@@ -45,7 +45,8 @@ h2 {
   background-color: rgb(35, 133, 153);
 }
 
-.proto-container:hover .button-peron, .button-peron:hover {
+.proto-container:hover .button-peron,
+.button-peron:hover {
   background-color: rgba(96, 28, 255, 0.75);
 }
 
@@ -57,7 +58,8 @@ h2 {
   background-color: rgb(89, 150, 224);
 }
 
-.proto-container:hover .button-conference, .button-conference:hover {
+.proto-container:hover .button-conference,
+.button-conference:hover {
   background-color: rgb(89, 150, 224, 0.75);
 }
 
@@ -66,7 +68,7 @@ h2 {
 }
 
 .button-petcare:hover {
-  background-color: rgb(247, 151, 49 0.75);
+  background-color: rgb(247, 151, 49, 0.75);
 }
 
 .button-logo {
@@ -79,7 +81,7 @@ h2 {
   transition: 0.5s;
 }
 
-.button-logo img{
+.button-logo img {
   max-width: 100%;
 }
 
