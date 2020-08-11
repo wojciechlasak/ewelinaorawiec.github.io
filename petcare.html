@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Portfolio Ewelina Orawiec">
+    <meta name="author" content="Ewelina Orawiec">
+    <title>Ewelina Orawiec</title>
+
+    <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+  <button id="button-up" class="button-logo button-petcare"><img src="img/icon.svg" /></button>
+  <a href="./index.html#project-petcare"><button id="button-back" class="button-logo button-petcare"><img src="img/icon.svg" /></button></a>
+  <header
+    style="background-color: #FCAE59;"  
+    class="project-top"
+  >
+   <div class="part project-top-in column-double flex flex-column flex-justify-center flex-align-center">
+      <span class="project-top-title text-align-center">PetCare</span>
+      <div class="airmin"></div>
+      <p class="project-top-subtitle text-align-center">aplikacja ułatwiająca opiekę nad zwierzętami<br />Od września 2020 dostępna na GooglePlay</p>
+   </div>
+  </header>
+  <div class="air"></div>
+  <div class="air"></div>
+  <section class="part">
+    <div class="flex column">
+			<div class="col2 column flex flex-column flex-justify-center flex-align-center">
+        <img class="project-photo" src="img/petcare6.png" />
+        <a href="https://www.figma.com/proto/HHGYsU1zxAYix5mgbCcggD/Podr%C3%B3%C5%BCe-Copy?node-id=25%3A37&scaling=scale-down" target="_blank">
+          <div class="flex flex-align-center proto-container">
+            <button class="button-logo button-petcare"><img src="img/proto.svg" /></button>
+            <h2>Prototyp</h2>
+          </div>
+        </a>
+      </div>
+			<div class="col2 flex flex-column column flex-justify-center">
+        <div class="air"></div>
+        <h1>PetCare</h1>
+        <p>aplikacja ułatwiająca opiekę nad zwierzętami poprzez:
+          <br /><br />
+          <ul>
+            <li>personalizowane <b>powiadomienia</b></li>
+            <li><b>dopasowanie</b> struktury aplikacji <b>do wybranej rasy</b></li>
+            <li><b>kalendarz</b> zbierający nadchodzące wydarzenia dla danego pupila</li>
+            <li>zebranie <b>informacji na temat rasy</b>, daty urodzin, czy sterylizacji,</li>
+            <li>historię <b>wizyt u weterynarza</b> i innych zdarzeń związanych ze zdrowiem pupila</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="air"></div>
+  <section class="part">
+    <div class="column-double flex flex-column flex-align-center">
+      <h1>Proces projektowy</h1>
+      <div class="air"></div>
+      <div class="air"></div>
+      <div class="flex flex-column col5-3">
+        <h2>Problem i empatyzacja</h2>
+        <div class="airmin"></div>
+        <p>Problem zauważyłam podczas spotkania ze znajomym - opiekunem kilku psów. Dostrzegłam, że pogodzenie <b>właściwej opieki nad pupilem</b>, zapewnienie mu prawidłowego żywienia, ilości ruchu czy tresury w zestawieniu z codziennymi obowiązkami <b>może stanowić wyzwanie</b>. Postanowiłam zbadać ten teamat.</p>
+      </div>
+      <div class="air"></div>
+      <div class="air"></div>
+      <div class="flex flex-column col5-3">
+        <h2>Wywiady</h2>
+        <div class="airmin"></div>
+        <p>Przeprowadziłam <b>5 wywiadów</b> wśród osób będących opiekunami różnych gatunków zwierząt, chcąc lepiej zrozumieć, <b>jakie problemy ich spotykają</b>. Wyciągnięte wnioski pomogły mi lepiej zaprojektować funkcjonalności aplikacji. 
+          Główne problemy, o których mówili badani różniły się w zależności od gatunku.</p>
+      </div>
+      <div class="air"></div>
+      <div class="air"></div>
+      <div class="flex flex-column col5-3">
+        <h3>Właściciele więszkych (psy, koty)</h3>
+        <div class="airmik"></div>
+        <ul>
+          <li>zapominanie, jakiego rodzaju karmę powinni podawać o danej porze dnia</li>
+          <li>zapominanie o treningu/zabawie z pupilem</li>
+          <li>problem z przypomnieniem sobie o podawaniu środków odrobaczających</li>
+          <li>brak spisanej historii wizyt u weterynarza/szczepień</li>
+        </ul>
+      </div>
+      <div class="air"></div>
+      <div class="flex flex-column col5-3">
+        <h3>Właściciele mniejszych zwierząt (gryzonie, pająki, rybki</h3>
+        <div class="airmik"></div>
+        <ul>
+          <li>zapominanie o czyszczeniu klatki/akwarium</li>
+          <li>apominanie o czynnościach specyficznych dla danego gatunku (zmiana światła, wymiana kolby)</li>
+          <li>brak dbałości o regularną higiene pupila</li>
+        </ul>
+        <p>Wszyscy właściciele wyrażali <b>chęć do prawidłowej opieki nad pupilem</b>, wskazywali różnorodne sposoby, które pomagają im zapewniać opiekę pupilom (<b>karteczki na lodówce, przypomnienia w telefonie</b>, zapisywanie dat w kalendarzu, prowadzenie książek zdrowia pupila). Zrozumiałam, że najiistotniejszym problemem i słowem kluczem jest <b>ZAPOMINANIE</b>. Chciałam, żeby projektowana aplikacja rozwiązywała przede wszystkim ten problem i <b>zastępowała inne metody</b> radzenia sobie z problemem.</p>
+      </div>
+      <div class="air"></div>
+      <div class="air"></div>
+    </div>
+  </section>
+  <section class="part">
+    <div class="flex column">
+      <div class="col2 column-double">
+        <img class="project-photo" src="img/petcare_persona.jpg" />
+      </div>
+      <div class="col2 flex flex-column column flex-justify-center">
+        <div class="air"></div>
+        <h2>Persony</h2>
+        <div class="airmin"></div>
+        <h3>Stworzyłam dwie persony, w celu spersonalizowania użytkowników aplikacji i lepszego zrozumienia ich potrzeb.</h3>
+        <div class="airmin"></div>
+      </div>
+    </div>
+  </section>
+  <div class="air"></div>
+  <div class="air"></div>
+  <section class="part">
+    <div class="column-double flex flex-column flex-align-center">
+      <div class="flex flex-column col5-3">
+        <h2>Badania</h2>
+        <div class="airmin"></div>
+        <h3>Przeprowadziłam dalsze badania chcąc poszerzyć swoją wiedzę na temat poszczególnych gatunków.</h3>
+        <div class="airmin"></div>
+        <p>
+          W aplikacji chciałam uwzględnić odpowiednie <b>kategorie przypomnień dla poszczególnych zwierząt</b>. W tym celu poszukiwałam informacji na temat zadań, które czekają opiekunów wybranych gatunków. Research opierał się na materiałach znaleznionych w internecie oraz na krótkich wywiadach wśród właścicieli poszczególnych zwierząt. W ten sposób udało mi się stworzyć <b>spersonalizowaną listę.</b>
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="air"></div>
+  <section class="part">
+    <div class="flex column">
+      <div class="col2 column-double">
+        <img class="project-photo" src="img/petcare3.png" />
+      </div>
+      <div class="col2 flex flex-column column flex-justify-center">
+        <div class="air"></div>
+        <h2>UI Design</h2>
+        <div class="airmin"></div>
+        <p>Na tym etapie stworzyłam protoryp aplikacji, który następnie poddałam testom</p>
+        <div class="airmin"></div>
+      </div>
+    </div>
+  </section>
+  <div class="air"></div>
+  <section class="part">
+    <div class="column-double flex flex-column flex-align-center">
+      <div class="flex flex-column col5-3">
+        <h2>Testy użyteczności</h2>
+        <div class="airmin"></div>
+        <p>
+          Przprowadziłam zadaniowe testy użyteczności. Na ich podstawie poprawiłam prototyp aplikacji. Niektóre z nich:<br />
+          - zmiana ikony "wyjdź/anuluj" i "usuń"<br />
+          - "głębsze" ukrycie funkcjonalności związanej z dodawaniem daty śmierci pupila<br />
+          - poprawienie architektury informacji - usunięcie możliwości nawigacji z panelu dodawania powiadomienia
+        </p>
+      </div>
+      <div class="air"></div>
+    </div>
+  </section>
+  <div class="air"></div>
+  <div class="air"></div>
+  <section class="part">
+    <div class="column flex">
+      <div class="column col3">
+        <img class="project-photo" src="img/petcare1.png" />
+      </div>
+      <div class="column col3">
+        <img class="project-photo" src="img/petcare2.png" />
+      </div>
+      <div class="column col3">
+        <img class="project-photo" src="img/petcare4.png" />
+      </div>
+    </div>
+  </section>
+  <div class="air"></div>
+  <div class="air"></div>
+  <section class="part">
+    <div class="column-double flex flex-column flex-align-center">
+      <div class="flex flex-column col5-3">
+        <h2>Dalsze perspektywy</h2>
+        <div class="airmin"></div>
+        <p>
+          Planujemy nadzorowac feedback użytkowników aplikacji i w razie potrzeby poprawić jej poszczególne aspekty, bądź rozbudować ją o nowe funkcjonalności.
+        </p>
+      </div>
+      <div class="air"></div>
+      <div class="air"></div>
+      <div class="flex flex-column col5-3">
+        <h2>Czego nauczyłam się podczas projektu?</h2>
+        <div class="airmin"></div>
+        <p>
+          Był to mój pierwszy proejkt, który został wdrożony. Bardzo dużo nauczyła mnie <b>współpraca z full stack developerem</b>, zobaczyłam jak <b>w praktyce wygląda proces tworzenia apliakcji</b> oraz na co powinnam zwracać uwagę przygotowując produkt.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="air"></div>
+  <div class="air"></div>
+  <script src="mainjs.js"></script>
+</body>
+</html>
